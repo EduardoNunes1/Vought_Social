@@ -16,10 +16,20 @@ html, body
 }
 
 header{
-    height: 100px;
+    height: 250px;
     width: 100%;
     text-align: center;
-    background-color: rgb(225, 0, 0);
+    background-image: url(img/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header img{
+    width: 175px;
+    height: 175px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 main{
@@ -51,41 +61,41 @@ main{
     border-radius: 5px;
 }
 
-
 .curtir img{
     border: none;
     width: 50px;
     height: 50px;
     transition: .2s;
 }
+
 .curtir img:hover{
     background-color: aliceblue;
     transition: .2s;
 }
+
 .comentar img{
     border: none;
     width: 50px;
     height: 50px;
     transition: .2s;
 }
+
 .comentar img:hover{
     background-color: aliceblue;
     transition: .2s;
 }
+
 .menu img{
     border: none;
     width: 50px;
     height: 50px;
     transition: .2s;
 }
+
 .menu img:hover{
     background-color: aliceblue;
     transition: .2s;
 }
-
-
-
-
 
 .curtir img:hover,
 .curtir-btn.ativo img {
