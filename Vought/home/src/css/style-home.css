@@ -30,18 +30,37 @@ main {
     height: 50px;
     display: flex;
     flex-direction: row;
+    align-items: end;
+    margin-bottom: 30px;
+    gap: 15px;
 }
 
-.pefil-post img{
-    width: 60px;
-    height: 60px;
+.perfil-post img{
+    width: 70px;
+    height: 70px;
     border-radius: 100%;
+    cursor: pointer;
+    padding: 5px;
+    background: linear-gradient(45deg, red, blue, grey);
+    transition: .3s;
 }
 
-.perfi-post h2{
+.perfil-post img:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.perfil-post h2{
     width: 20px;
     height: 40px;
     color: white;
+    font-weight: 300;
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+.perfil-post h2:hover{
+    text-decoration: underline;
 }
 
 .container .post-img {
@@ -191,13 +210,27 @@ main {
     border-radius: 20px;
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
 }
 .container-story img{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 100%;
-    padding: 10px;
-    background:linear-gradient(to bottom, black, rgba(255, 255, 255, 0.664));
+    padding: 5px;
+    background:linear-gradient(to bottom, red, blue, grey);
     border: 2px solid black;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(58, 58, 58);
+    border-radius: 20px;
+    border: 3px solid transparent;
 }

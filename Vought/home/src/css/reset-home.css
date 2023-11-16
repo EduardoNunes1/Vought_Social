@@ -13,4 +13,5 @@ html, body
     font-family: "Dyslexie", sans-serif;
     background:linear-gradient(85deg, rgb(0, 2, 29), rgb(0, 0, 7), rgb(1, 0, 32), rgb(0, 0, 12), rgb(0, 0, 24));
     background-attachment: fixed;
+    scroll-behavior: smooth;
 }
