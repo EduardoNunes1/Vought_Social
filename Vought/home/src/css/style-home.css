@@ -46,7 +46,7 @@ main {
 }
 
 .perfil-post img:hover{
-    transform: scale(1.1);
+    transform: scale(1.03);
     transition: .3s;
 }
 
@@ -89,10 +89,10 @@ main {
     width: 55px;
     height: 55px;
     border: none;
-    transition: .2s;
+    transition: .35s;
     border-radius: 100%;
     padding: 7px;
-
+    cursor: pointer;
 }
 
 .curtir img:hover {
@@ -104,35 +104,39 @@ main {
     width: 45px;
     height: 45px;
     border: none;
-    transition: .2s;
+    transition: .35s;
     border-radius: 100%;
     padding: 5px;
-
+    cursor: pointer;
 }
 
 .comentar img:hover {
     background-color: aliceblue;
-    transition: .2s;
+    transform: scale(1.1);
+    transition: .35s;
 }
 
 .menu img {
     width: 45px;
     height: 45px;
     border: none;
-    transition: .2s;
+    transition: .35s;
     border-radius: 100%;
     padding: 5px;
+    cursor: pointer;
 }
 
 .menu img:hover {
     background-color: aliceblue;
-    transition: .2s;
+    transform: scale(1.1);
+    transition: .35s;
 }
 
 .curtir img:hover,
 .curtir-btn.ativo img {
     background-color: rgb(255, 0, 0);
-    transition: .2s;
+    transform: scale(1.1);
+    transition: .35s;
 }
 
 #menu {
@@ -216,19 +220,34 @@ main {
     z-index: 1;
     height: 150px;
     width: 68%;
-    background-color:  rgb(3, 41, 176);
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(110, 110, 110));
+    box-shadow: 0 2px 7px rgb(84, 84, 84);
     border-radius: 20px;
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.container-story img{
+
+.icon-mais:hover{
+    transform: scale(1.1);
+    transform: rotatez(-130deg);
+    transition: .7s;
+}
+
+.container-story .status-perfil{
     width: 100px;
     height: 100px;
     border-radius: 100%;
     padding: 5px;
     background:linear-gradient(to bottom, red, blue, grey);
     border: 2px solid black;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container-story .status-perfil:hover{
+    transform: scale(1.02);
+    transition: .3s;
 }
 
 ::-webkit-scrollbar {
