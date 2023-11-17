@@ -154,10 +154,10 @@ main {
     align-items: center;
     padding-top: 7px;
     border-radius: 0 50px 0 100px;
-    padding: 15px;
+    padding: 10px;
     box-shadow: 4px 0 10px rgba(194, 194, 194, 0.3);
     z-index: 1;
-    row-gap: 30px;
+    row-gap: 15px;
 }
 
 .content .logo-menu {
@@ -170,9 +170,19 @@ main {
     padding: -10px;
 }
 
+
 .icon-menu{
-    width: 80px;
+    width: 30px;
     border-radius: 100px;
+    padding-top: 50px;
+    opacity: 0.73;
+    transition: .25s;
+}
+
+.icon-menu:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    transition: .25s;
 }
 
 .linha {
