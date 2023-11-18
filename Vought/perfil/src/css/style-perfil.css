@@ -1,3 +1,4 @@
+/* Header */
 header {
     height: 250px;
     width: 100%;
@@ -15,6 +16,7 @@ header img {
     align-items: center;
 }
 
+/* Main */
 main {
     display: flex;
     flex-direction: column;
@@ -25,6 +27,19 @@ main {
     gap: 70px;
 }
 
+/* Linha do fundo */
+.linha {
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 175px;
+    background-color: rgb(83, 83, 83);
+    box-shadow: 0 0 10px white;
+}
+
+/* Menu Lateral */
 #menu {
     height: 100%;
     top: 120px;
@@ -60,7 +75,7 @@ main {
 }
 
 
-.icon-menu{
+.icon-menu {
     width: 30px;
     border-radius: 100px;
     padding-top: 50px;
@@ -68,64 +83,53 @@ main {
     transition: .25s;
 }
 
-.icon-menu:hover{
+.icon-menu:hover {
     transform: scale(1.1);
     opacity: 1;
     transition: .25s;
 }
 
-.linha {
-    width: 2px;
-    height: 100%;
-    position: absolute;
-    position: fixed;
-    top: 0;
-    left: 175px;
-    background-color: rgb(83, 83, 83);
-    box-shadow: 0 0 10px white;
+/* Perfil */
+.perfil-social {
+    width: 100%;
+    height: 600px;
+    margin-left: 250px;
+    padding: 20px;
 }
 
-.bloco {
-    width: 175px;
-    height: 100%;
-    background-color: rgb(0, 0, 0);
-    top: 0;
-    position: fixed;
-}
-
-.perfil-a1{
+.perfil-a1 {
     width: 100%;
     height: 300px;
-    margin-left: -320px;
+    margin-left: -220px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 80px;
 }
 
-.perfil-a1 .nomes{
+.perfil-a1 .nomes {
     display: flex;
     flex-direction: column;
     row-gap: 5px;
 }
 
-.perfil-a1 .nomes h1{
+.perfil-a1 .nomes h1 {
     color: white;
     font-weight: 600;
 }
 
-.perfil-a1 .nomes h2{
+.perfil-a1 .nomes h2 {
     color: white;
     font-weight: 300;
     font-size: 14px;
     cursor: pointer;
 }
 
-.perfil-a1 .nomes h2:hover{
+.perfil-a1 .nomes h2:hover {
     text-decoration: underline;
 }
 
-.perfil-a1 .perfil-i{
+.perfil-a1 .perfil-i {
     width: 180px;
     height: 180px;
     border-radius: 100%;
@@ -133,6 +137,76 @@ main {
     padding: 10px;
 }
 
+.seguidores {
+    width: 400px;
+    height: 40px;
+    display: flex;
+    padding-left: 50px;
+    gap: 30px;
+    margin-top: -5px;
+}
+
+.seguidores h2 {
+    color: white;
+    font-size: 15pt;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.seguidores h2:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+/* Descrição/Bio */
+.perfil-a2 {
+    width: 1100px;
+    height: 250px;
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(110, 110, 110));
+    box-shadow: 0 2px 7px rgb(84, 84, 84);
+    margin-left: 200px;
+    margin-top: -280px;
+    border-radius: 20px;
+}
+
+.perfil-a2 .description-p {
+    color: white;
+    opacity: .9;
+    font-size: 13pt;
+    display: flex;
+    padding-top: 25px;
+    margin-left: 35px;
+}
+
+/* Postagem */
+.postagens h1 {
+    color: white;
+    font-size: 20pt;
+    font-weight: 600;
+    margin-left: 300px;
+    padding-top: 20px;
+}
+
+.postagens .imagens-p {
+    width: 1100px;
+    height: 800px;
+    padding-top: 20px;
+    margin-left: 225px;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.postagens .imagens-p img {
+    width: 350px;
+    height: 400px;
+    border: 2px solid white;
+    box-shadow: 0 2px 10px white;
+    border-radius: 15px;
+}
+
+/* Scroll */
 ::-webkit-scrollbar {
     width: 5px;
 }
@@ -142,7 +216,5 @@ main {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(58, 58, 58);
-    border-radius: 20px;
-    border: 3px solid transparent;
+    background-color: none;
 }

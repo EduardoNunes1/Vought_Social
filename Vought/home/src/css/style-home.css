@@ -1,3 +1,4 @@
+/* Header */
 header {
     height: 250px;
     width: 100%;
@@ -15,6 +16,7 @@ header img {
     align-items: center;
 }
 
+/* Main */
 main {
     display: flex;
     flex-direction: column;
@@ -25,6 +27,19 @@ main {
     gap: 70px;
 }
 
+/* Linha */
+.linha {
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 175px;
+    background-color: rgb(121, 121, 121);
+    box-shadow: 0 0 10px white;
+}
+
+/* Postagem */
 .container .perfil-post {
     width: 350px;
     height: 50px;
@@ -35,7 +50,7 @@ main {
     gap: 15px;
 }
 
-.perfil-post img{
+.perfil-post img {
     width: 70px;
     height: 70px;
     border-radius: 100%;
@@ -45,12 +60,12 @@ main {
     transition: .3s;
 }
 
-.perfil-post img:hover{
+.perfil-post img:hover {
     transform: scale(1.03);
     transition: .3s;
 }
 
-.perfil-post h2{
+.perfil-post h2 {
     width: 20px;
     height: 40px;
     color: white;
@@ -59,7 +74,7 @@ main {
     cursor: pointer;
 }
 
-.perfil-post h2:hover{
+.perfil-post h2:hover {
     text-decoration: underline;
 }
 
@@ -139,6 +154,7 @@ main {
     transition: .35s;
 }
 
+/* Menu Lateral */
 #menu {
     height: 100%;
     top: 120px;
@@ -175,7 +191,7 @@ main {
 }
 
 
-.icon-menu{
+.icon-menu {
     width: 30px;
     border-radius: 100px;
     padding-top: 50px;
@@ -183,32 +199,14 @@ main {
     transition: .25s;
 }
 
-.icon-menu:hover{
+.icon-menu:hover {
     transform: scale(1.1);
     opacity: 1;
     transition: .25s;
 }
 
-.linha {
-    width: 2px;
-    height: 100%;
-    position: absolute;
-    position: fixed;
-    top: 0;
-    left: 175px;
-    background-color: rgb(83, 83, 83);
-    box-shadow: 0 0 10px white;
-}
-
-.bloco {
-    width: 175px;
-    height: 100%;
-    background-color: rgb(0, 0, 0);
-    top: 0;
-    position: fixed;
-}
-
-.story{
+/* Stories */
+.story {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -216,7 +214,7 @@ main {
     top: 50px;
 }
 
-.container-story{
+.container-story {
     z-index: 1;
     height: 150px;
     width: 68%;
@@ -228,28 +226,29 @@ main {
     gap: 10px;
 }
 
-.icon-mais:hover{
+.icon-mais:hover {
     transform: scale(1.1);
     transform: rotate(-130deg);
     transition: .7s;
 }
 
-.container-story .status-perfil{
+.container-story .status-perfil {
     width: 100px;
     height: 100px;
     border-radius: 100%;
     padding: 5px;
-    background:linear-gradient(to bottom, red, blue, grey);
+    background: linear-gradient(to bottom, red, blue, grey);
     border: 2px solid black;
     cursor: pointer;
     transition: .3s;
 }
 
-.container-story .status-perfil:hover{
+.container-story .status-perfil:hover {
     transform: scale(1.02);
     transition: .3s;
 }
 
+/* Scroll */
 ::-webkit-scrollbar {
     width: 5px;
 }

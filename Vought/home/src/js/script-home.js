@@ -1,3 +1,4 @@
+// Função de curtida
 document.addEventListener('DOMContentLoaded', function () {
     var curtirButtons = document.querySelectorAll('.curtir-btn');
 
@@ -7,6 +8,3 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
-
-
-

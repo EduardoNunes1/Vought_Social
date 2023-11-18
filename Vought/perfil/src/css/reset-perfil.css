@@ -1,9 +1,11 @@
+/* Predefinições padrões do website/rede social */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Página e fonts */
 html,
 body {
     width: 100%;
