@@ -20,7 +20,6 @@ header img {
 main {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 /* Linha do fundo */
@@ -89,7 +88,7 @@ main {
 .perfil-social {
     width: 100%;
     height: 600px;
-    margin-left: 250px;
+    margin-left: 320px;
     padding: 20px;
 }
 

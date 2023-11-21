@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Dyslexie", sans-serif;}
+    font-family: "Dyslexie", sans-serif;
+}
 
-body{
+body {
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -12,7 +13,7 @@ body{
     background: linear-gradient(85deg, rgb(0, 2, 29), rgb(0, 0, 7), rgb(1, 0, 32), rgb(0, 0, 12), rgb(0, 0, 24));
 }
 
-.wrapper{
+.wrapper {
     width: 550px;
     height: 650px;
     display: flex;
@@ -20,27 +21,27 @@ body{
     justify-content: center;
     background: rgba(0, 0, 0, 0.552);
     box-shadow: 0 0 20px white;
-    border-radius:  20px;
+    border-radius: 20px;
 }
 
-form h2{
+form h2 {
     color: white;
     font-weight: 600;
     text-align: center;
     letter-spacing: 1.6px;
 }
 
-.input-group{
+.input-group {
     position: relative;
     width: 320px;
     margin-top: 30px;
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
-    
+
 }
 
 
-.input-group input{
+.input-group input {
     position: relative;
     width: 100%;
     color: rgb(0, 0, 0);
@@ -55,7 +56,7 @@ form h2{
     padding: 15px 10px;
 }
 
-.input-group label{
+.input-group label {
     position: absolute;
     left: 0;
     padding: 15px 10px;
@@ -69,15 +70,15 @@ form h2{
 
 }
 
-.input-group input:valid ~ label,
-.input-group input:focus ~ label{
+.input-group input:valid~label,
+.input-group input:focus~label {
     color: white;
     transform: translateX(0) translateY(-34px);
     font-size: 12px;
     transition: .3s;
 }
 
-.input-group .icon{
+.input-group .icon {
     position: absolute;
     top: 60%;
     right: 10px;
@@ -91,7 +92,8 @@ form h2{
     align-items: center;
     justify-content: center;
 }
-.input-group .icon img{
+
+.input-group .icon img {
     width: 40px;
     height: 100%;
     border-radius: 100px;
@@ -99,25 +101,25 @@ form h2{
     opacity: 0.8;
 }
 
-.input-group input:valid ~ .line,
-.input-group input:focus ~ .line{
+.input-group input:valid~.line,
+.input-group input:focus~.line {
     height: 44px;
 }
 
-.check{
+.check {
     display: flex;
     justify-content: space-between;
 }
 
 .check label,
-.check a{
+.check a {
     margin: 20px 0;
     font-size: 14px;
     color: white;
     cursor: pointer;
 }
 
-.check label{
+.check label {
     display: flex;
     align-items: center;
     color: red;
@@ -125,13 +127,13 @@ form h2{
     padding-left: 20px;
 }
 
-.check label input{
+.check label input {
     appearance: none;
     position: absolute;
     left: 0;
 }
 
-.check label input::before{
+.check label input::before {
     content: '';
     display: flex;
     align-items: center;
@@ -146,19 +148,20 @@ form h2{
     transform: translateY(-50%);
 }
 
-.check label input:checked::before{
+.check label input:checked::before {
     content: "\2714";
     background-color: red;
 }
 
-.check a{
+.check a {
     text-decoration: none;
 }
-.check a:hover{
+
+.check a:hover {
     text-decoration: underline;
 }
 
-form button{
+form button {
     width: 100%;
     height: 44px;
     border: none;
@@ -171,20 +174,20 @@ form button{
     cursor: pointer;
 }
 
-form button:active{
+form button:active {
     opacity: 0.8;
 }
 
 
-.linha{
+.linha {
     position: absolute;
     height: 80%;
     width: 2px;
     box-shadow: 0 0 15px 2px white;
-    background-color: white;    
+    background-color: white;
 }
 
-.logo{
+.logo {
     width: 540px;
     height: 100%;
     border-radius: 300px 20px 300px 20px;
@@ -194,7 +197,7 @@ form button:active{
 }
 
 
-button a{
+button a {
     text-decoration: none;
     color: white;
 }
