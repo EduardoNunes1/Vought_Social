@@ -210,8 +210,8 @@ main {
     width: 100%;
     display: flex;
     justify-content: center;
-    position: absolute;
-    top: 50px;
+    position: relative;
+    top: -50px;
 }
 
 .container-story {

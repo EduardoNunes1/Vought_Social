@@ -19,7 +19,7 @@ function logar() {
 
     if (login == "adm" && senha == "012345") {
         // Certifique-se de que o caminho está correto
-        location.href = "../../../home/home.html";
+        location.href = "../../Vought/home/home.html";
     } else {
         alert('email ou senha incorreto ⛔');
     }
