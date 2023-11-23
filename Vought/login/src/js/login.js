@@ -1,8 +1,6 @@
 function submitForm() {
     const passwordInput = document.getElementById('password');
     const togglePassword = document.getElementById('togglePassword');
-    const emailInput = document.querySelector('input[type="text"]');
-    const rememberCheckbox = document.querySelector('input[type="checkbox"]');
 
     togglePassword.addEventListener('click', () => {
         if (passwordInput.type === 'password') {
@@ -13,15 +11,19 @@ function submitForm() {
             togglePassword.innerHTML = '<i class="far fa-eye-slash"><img src="src/img/olhinho-aberto.png"></i>';
         }
     });
+}
 
-    const email = emailInput.value.trim();
-    const password = passwordInput.value.trim();
+function logar() {
+    var login = document.getElementById('email').value;
+    var senha = document.getElementById('password').value;
 
-    // Check if the email and password match the required credentials
-    if (email === 'brasiasodiklk' && password === 'asdjlaksd' && rememberCheckbox.checked) {
-        // Redirect to the home page
-        window.location.href = 'path-to-your-home-page.html';
+    if (login == "adm" && senha == "012345") {
+        // Certifique-se de que o caminho está correto
+        location.href = "../../../home/home.html";
     } else {
-        alert('Invalid email, password, or checkbox not checked!');
+        alert('email ou senha incorreto ⛔');
     }
 }
+
+// Adicione a chamada da função submitForm para vincular o evento de clique do botão de alternância de senha
+submitForm();

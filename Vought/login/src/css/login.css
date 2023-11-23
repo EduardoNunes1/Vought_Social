@@ -158,7 +158,7 @@ form h2{
     text-decoration: underline;
 }
 
-form button{
+form .btn{
     width: 100%;
     height: 44px;
     border: none;
@@ -171,9 +171,7 @@ form button{
     cursor: pointer;
 }
 
-form button:active{
-    opacity: 0.8;
-}
+
 
 
 .linha{
@@ -194,7 +192,3 @@ form button:active{
 }
 
 
-button a{
-    text-decoration: none;
-    color: white;
-}

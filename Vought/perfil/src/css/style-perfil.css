@@ -238,3 +238,21 @@ footer span{
 ::-webkit-scrollbar-thumb {
     background-color: none;
 }
+
+#sair{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+#sair img{
+    height: 100%;
+    width: 40px;
+}
