@@ -161,11 +161,7 @@ form h2 {
     text-decoration: underline;
 }
 
-<<<<<<< HEAD
-form .btn{
-=======
-form button {
->>>>>>> bb283403b59ca19520258293163220e62b21e011
+form .btn {
     width: 100%;
     height: 44px;
     border: none;
@@ -178,13 +174,9 @@ form button {
     cursor: pointer;
 }
 
-<<<<<<< HEAD
-
-=======
-form button:active {
+form .btn:active {
     opacity: 0.8;
 }
->>>>>>> bb283403b59ca19520258293163220e62b21e011
 
 
 .linha {
@@ -205,10 +197,7 @@ form button:active {
 }
 
 
-<<<<<<< HEAD
-=======
 button a {
     text-decoration: none;
     color: white;
 }
->>>>>>> bb283403b59ca19520258293163220e62b21e011
