@@ -14,13 +14,13 @@ body {
 }
 
 .wrapper {
-    width: 550px;
-    height: 650px;
+    width: 450px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: rgba(0, 0, 0, 0.552);
-    box-shadow: 0 0 20px white;
+    box-shadow: 0 0 20px rgb(58, 58, 58);
     border-radius: 20px;
 }
 
@@ -37,7 +37,6 @@ form h2 {
     margin-top: 30px;
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
-
 }
 
 
@@ -183,17 +182,17 @@ form .btn:active {
     position: absolute;
     height: 80%;
     width: 2px;
-    box-shadow: 0 0 15px 2px white;
-    background-color: white;
+    box-shadow: 0 0 15px 2px rgb(58, 58, 58);
+    background-color: rgb(65, 65, 65);
 }
 
 .logo {
-    width: 540px;
+    width: 450px;
     height: 100%;
     border-radius: 300px 20px 300px 20px;
-    border: 3px solid white;
+    border: 3px solid rgb(65, 65, 65);
     padding: 20px;
-    box-shadow: 0 0 20px white;
+    box-shadow: 0 0 20px rgb(58, 58, 58);
 }
 
 

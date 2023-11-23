@@ -263,3 +263,19 @@ main {
     border: 3px solid transparent;
 }
 
+/* Footer */
+footer{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(85deg, rgb(0, 2, 29), rgb(0, 0, 7), rgb(1, 0, 32), rgb(0, 0, 12), rgb(0, 0, 24));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 250px;
+    padding-bottom: 50px;
+}
+
+footer span{
+    color: rgb(176, 176, 176);
+    text-shadow: 0 0 10px rgb(254, 254, 254);
+}

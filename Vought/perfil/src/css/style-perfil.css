@@ -241,17 +241,25 @@ footer span{
 #sair{
     position: fixed;
     top: 50px;
-    right: 50px;
-    width: 100px;
+    right: -5px;
+    width: 150px;
     height: 50px;
     display: flex;
     align-items: center;
-    gap: 15px;
-    font-size: 15px;
+    gap: 7px;
+    font-size: 12px;
     color: rgb(255, 255, 255);
 }
 
 #sair img{
-    height: 100%;
-    width: 40px;
+    height: 25px;
+    width: 25px;
+    transition: .3s;
+}
+
+#sair:hover img{
+    background-color: red;
+    box-shadow: 0 2px 5px red;
+    border-radius: 10px 5px 10px 5px;
+    transition: .3s;
 }
